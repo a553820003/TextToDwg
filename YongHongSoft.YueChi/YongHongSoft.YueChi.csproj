@@ -104,13 +104,13 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Dll\MySql.Data.dll" />
+    <Content Include="Dll\TD_Mgd_3.03_9.dll" />
     <Content Include="PosOfField.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Dll\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -106,7 +106,7 @@ namespace WindowsFormsApplication2
                 }
             return dbTextArray;
         }
-        //获取宋体的styleID ，目前只找到这种办法，通过遍历已有dbText元素来得到，直接设置新建文字实体的styleID的方法暂未找到
+        //获取字体的styleID ，目前只找到这种办法，通过遍历已有dbText元素来得到，直接设置新建文字实体的styleID的方法暂未找到
         private ObjectId getFontStyleId(BlockTableRecord acBlkTblRec, Transaction acTrans)
         {
             foreach (ObjectId objs in acBlkTblRec)//遍历图中的所有块表
@@ -195,7 +195,9 @@ namespace WindowsFormsApplication2
                         BlockTableRecord acBlkTblRec;
                         acBlkTblRec = acTrans.GetObject(acBlkTbl[BlockTableRecord.ModelSpace],
                             OpenMode.ForWrite) as BlockTableRecord;
+                        //调用getBasicPoint获取左下角基点
                         Point3d basePoint = getBasicPoint(acBlkTblRec, acTrans);
+                        //更新类成员txtEntityArray中的坐标值
                         foreach (var entity in txtEntityArray)
                         {
                             double X = entity.mposition.X + basePoint.X;
