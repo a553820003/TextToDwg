@@ -31,7 +31,7 @@ namespace YongHongSoft.YueChi
                 
             }
         }
-        
+        //zhushi
         public static bool Save(object obj, string path)
         {
             FileStream sw = File.OpenWrite(path);
