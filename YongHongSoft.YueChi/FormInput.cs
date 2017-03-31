@@ -212,6 +212,11 @@ namespace YongHongSoft.YueChi
 
         #region  身份证验证
 
+        /// <summary>
+        /// 身份证验证
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void textBox_Leave(object sender, EventArgs e)
         {
             var textBox = sender as TextBox;
@@ -232,7 +237,11 @@ namespace YongHongSoft.YueChi
                 }
             }
         }
-
+        /// <summary>
+        /// 面积验证
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void TextBox_TypeCheckDouble(object sender, EventArgs e)
         {
             var tb = sender as TextBox;
@@ -260,6 +269,11 @@ namespace YongHongSoft.YueChi
             }
         }
 
+        /// <summary>
+        /// 整型数字验证
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void TextBox_TypeCheckInt(object sender, EventArgs e)
         {
             var tb = sender as TextBox;
@@ -290,6 +304,11 @@ namespace YongHongSoft.YueChi
             }
         }
 
+        /// <summary>
+        /// 不能为空值验证
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void TextBox_IsEmpty(object sender, EventArgs e)
         {
             var tb = sender as TextBox;
