@@ -1,40 +1,41 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
+
 <dwgStore>
   <dwg name="fcfht" fontheight="0.4">
-    <label x="6.04" y="34.83" Field="宗地代码"/>
-    <label x="5.83" y="33.21" Field="幢号"></label>    房屋
-    <label x="5.83" y="31.38" Field="户号"></label>
-    <label x="14.40" y="34.90" Field="结构"></label>
-    <label x="14.39" y="33.17" Field="总层数"></label>
-    <label x="14.39" y="31.41" Field="所在层次"></label>
-    <label x="25.57" y="34.85" Field="专有建筑面积"></label>
-    <label x="25.58" y="33.16" Field="分摊建筑面积"></label>
-    <label x="25.58" y="31.34" Field="建筑面积"></label>
-    <label x="12.97" y="29.67" Field="坐落"></label>   宗地
+    <label x="6.04" y="34.83" Field="宗地代码" />
+    <label x="5.83" y="33.21" Field="幢号"/> 
+    <label x="5.83" y="31.38" Field="户号"/>
+    <label x="14.40" y="34.90" Field="结构"/>
+    <label x="14.39" y="33.17" Field="总层数"/>
+    <label x="14.39" y="31.41" Field="所在层次"/>
+    <label x="25.57" y="34.85" Field="专有建筑面积"/>
+    <label x="25.58" y="33.16" Field="分摊建筑面积"/>
+    <label x="25.58" y="31.34" Field="建筑面积"/>
+    <label x="12.97" y="29.67" Field="坐落"/> 
   </dwg>
   <dwg name="fcpmt" fontheight="1">
-    <label x="26.15" y="25.87" Field="坐落"></label>   宗地
-    <label x="25.90" y="22.31" Field="房屋名称"></label>
-    <label x="24.99" y="18.48" Field="宗地代码"></label>
-    <label x="25.86" y="14.72" Field="总层数"></label>
-    <label x="25.86" y="11.26" Field="按建筑结构区分面积"></label>
-    <label x="33.60" y="7.79" Field="建筑面积"></label>  
-    <label x="26.27" y="4.74" Field="测绘人员"></label>
-    <label x="26.28" y="1.33" Field="检核人员"></label>
-    <label x="63.93" y="25.99" Field="房屋用途"></label>
-    <label x="63.96" y="22.32" Field="房屋结构"></label>
-    <label x="63.96" y="18.37" Field="套内面积"></label>
-    <label x="63.96" y="14.67" Field="分摊面积"></label>
-    <label x="63.96" y="11.13" Field="建筑面积"></label>
+    <label x="26.15" y="25.87" Field="坐落"/> 
+    <label x="25.90" y="22.31" Field="房屋名称"/>
+    <label x="24.99" y="18.48" Field="宗地代码"/>
+    <label x="25.86" y="14.72" Field="总层数"/>
+    <label x="25.86" y="11.26" Field="按建筑结构区分面积"/>
+    <label x="33.60" y="7.79" Field="建筑面积"/>
+    <label x="26.27" y="4.74" Field="测绘人员"/>
+    <label x="26.28" y="1.33" Field="检核人员"/>
+    <label x="63.93" y="25.99" Field="房屋用途"/>
+    <label x="63.96" y="22.32" Field="房屋结构"/>
+    <label x="63.96" y="18.37" Field="套内面积"/>
+    <label x="63.96" y="14.67" Field="分摊面积"/>
+    <label x="63.96" y="11.13" Field="建筑面积"/>
   </dwg>
   <dwg name="zdt" fontheight="1.8">
-    <label x="12.35" y="110.02" Field="宗地代码"></label>
-    <label x="13.83" y="103.97" Field="图幅号"></label>
-    <label x="68.87" y="109.88" Field="土地权利人"></label>权利人
-    <label x="67.65" y="103.67" Field="宗地面积"></label>
-    <label x="54.61" y="11.74" Field="宗地面积"></label> 
-    <label x="54.64" y="8.82" Field="实测建筑面积"></label> 
-    <label x="54.61" y="5.49" Field="批准建筑面积"></label> 
-    <label x="54.61" y="2.41" Field="其他集体建设用地面积"></label>
+    <label x="12.35" y="110.02" Field="宗地代码"/>
+    <label x="13.83" y="103.97" Field="图幅号"/>
+    <label x="68.87" y="109.88" Field="土地权利人"/>
+    <label x="67.65" y="103.67" Field="宗地面积"/>
+    <label x="54.61" y="11.74" Field="宗地面积"/>
+    <label x="54.64" y="8.82" Field="实测建筑面积"/>
+    <label x="54.61" y="5.49" Field="批准建筑面积"/>
+    <label x="54.61" y="2.41" Field="其他集体建设用地面积"/>
   </dwg>
 </dwgStore>
