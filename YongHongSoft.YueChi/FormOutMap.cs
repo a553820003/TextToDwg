@@ -11,6 +11,7 @@ namespace YongHongSoft.YueChi
         public FormOutMap()
         {
             InitializeComponent();
+            //123
         }
 
         private void Form1_Load(object sender, EventArgs e)
