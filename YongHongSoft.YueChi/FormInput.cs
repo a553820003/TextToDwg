@@ -194,7 +194,7 @@ namespace YongHongSoft.YueChi
                       $"('{zddm}','{textBoxYGDJZL.Text}','{textBoxYWR.Text}','{textBoxBDBZQSE.Text}','{textBoxZWLXQX.Text}')";
                 count = helper.ExecuteNonQuery(CommandType.Text, sql);
 
-                MessageBox.Show("你更新了 " + count + " 条记录耶");
+                MessageBox.Show("你更新了 " + count + " 条记录");
             }
             catch (Exception exception)
             {
@@ -330,5 +330,10 @@ namespace YongHongSoft.YueChi
             }
         }
         #endregion
+
+        private void FormInput_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

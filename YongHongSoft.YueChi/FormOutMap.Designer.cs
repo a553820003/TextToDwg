@@ -41,9 +41,10 @@
             // 
             // ClickFileBtn
             // 
-            this.ClickFileBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(182)))), ((int)(((byte)(255)))));
+            this.ClickFileBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(82)))), ((int)(((byte)(97)))), ((int)(((byte)(107)))));
             this.ClickFileBtn.Font = new System.Drawing.Font("宋体", 12F);
-            this.ClickFileBtn.Location = new System.Drawing.Point(105, 174);
+            this.ClickFileBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
+            this.ClickFileBtn.Location = new System.Drawing.Point(298, 201);
             this.ClickFileBtn.Name = "ClickFileBtn";
             this.ClickFileBtn.Size = new System.Drawing.Size(162, 60);
             this.ClickFileBtn.TabIndex = 0;
@@ -55,7 +56,7 @@
             // 
             this.radioButton1.AutoSize = true;
             this.radioButton1.Font = new System.Drawing.Font("宋体", 12F);
-            this.radioButton1.Location = new System.Drawing.Point(298, 65);
+            this.radioButton1.Location = new System.Drawing.Point(539, 92);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(114, 20);
             this.radioButton1.TabIndex = 1;
@@ -67,7 +68,7 @@
             // 
             this.radioButton2.AutoSize = true;
             this.radioButton2.Font = new System.Drawing.Font("宋体", 12F);
-            this.radioButton2.Location = new System.Drawing.Point(298, 91);
+            this.radioButton2.Location = new System.Drawing.Point(539, 118);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(114, 20);
             this.radioButton2.TabIndex = 2;
@@ -79,7 +80,7 @@
             // 
             this.radioButton3.AutoSize = true;
             this.radioButton3.Font = new System.Drawing.Font("宋体", 12F);
-            this.radioButton3.Location = new System.Drawing.Point(298, 117);
+            this.radioButton3.Location = new System.Drawing.Point(539, 144);
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(82, 20);
             this.radioButton3.TabIndex = 3;
@@ -89,23 +90,20 @@
             // 
             // label1
             // 
-            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(144)))), ((int)(((byte)(242)))), ((int)(((byte)(255)))));
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(214)))), ((int)(((byte)(223)))));
             this.label1.Font = new System.Drawing.Font("宋体", 12F);
-            this.label1.Location = new System.Drawing.Point(102, 69);
+            this.label1.Location = new System.Drawing.Point(295, 96);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(165, 68);
+            this.label1.Size = new System.Drawing.Size(165, 78);
             this.label1.TabIndex = 4;
             this.label1.Text = "选择图类";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label2
             // 
-            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(144)))), ((int)(((byte)(242)))), ((int)(((byte)(255)))));
+            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(214)))), ((int)(((byte)(223)))));
             this.label2.Font = new System.Drawing.Font("宋体", 9F);
-            this.label2.Location = new System.Drawing.Point(295, 174);
+            this.label2.Location = new System.Drawing.Point(536, 201);
             this.label2.Name = "label2";
             this.label2.Padding = new System.Windows.Forms.Padding(10, 10, 0, 0);
             this.label2.Size = new System.Drawing.Size(276, 94);
@@ -114,9 +112,10 @@
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(182)))), ((int)(((byte)(255)))));
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(82)))), ((int)(((byte)(97)))), ((int)(((byte)(107)))));
             this.button2.Font = new System.Drawing.Font("宋体", 12F);
-            this.button2.Location = new System.Drawing.Point(103, 294);
+            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
+            this.button2.Location = new System.Drawing.Point(296, 321);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(164, 55);
             this.button2.TabIndex = 7;
@@ -126,9 +125,9 @@
             // 
             // label3
             // 
-            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(144)))), ((int)(((byte)(242)))), ((int)(((byte)(255)))));
+            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(214)))), ((int)(((byte)(223)))));
             this.label3.Font = new System.Drawing.Font("宋体", 9F);
-            this.label3.Location = new System.Drawing.Point(295, 294);
+            this.label3.Location = new System.Drawing.Point(536, 321);
             this.label3.Name = "label3";
             this.label3.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.label3.Size = new System.Drawing.Size(276, 55);
@@ -138,9 +137,10 @@
             // 
             // button3
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(152)))), ((int)(((byte)(218)))));
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(82)))), ((int)(((byte)(97)))), ((int)(((byte)(107)))));
             this.button3.Font = new System.Drawing.Font("宋体", 12F);
-            this.button3.Location = new System.Drawing.Point(211, 378);
+            this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
+            this.button3.Location = new System.Drawing.Point(425, 405);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(169, 52);
             this.button3.TabIndex = 9;
@@ -148,12 +148,12 @@
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // Form1
+            // FormOutMap
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(252)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(639, 482);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
+            this.ClientSize = new System.Drawing.Size(1058, 602);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.button2);
@@ -163,9 +163,9 @@
             this.Controls.Add(this.radioButton2);
             this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.ClickFileBtn);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
-            this.Name = "Form1";
+            this.Name = "FormOutMap";
             this.Text = "文本添加";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);

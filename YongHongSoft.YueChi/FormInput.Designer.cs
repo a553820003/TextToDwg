@@ -33,6 +33,7 @@
             this.label33 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.maskedTextBoxQTJTJSYDMJ = new System.Windows.Forms.MaskedTextBox();
             this.maskedTextBoxGLBLC = new System.Windows.Forms.MaskedTextBox();
@@ -139,6 +140,7 @@
             this.label65 = new System.Windows.Forms.Label();
             this.comboBoxFWJG = new System.Windows.Forms.ComboBox();
             this.label64 = new System.Windows.Forms.Label();
+            this.textBoxSZC = new System.Windows.Forms.TextBox();
             this.label63 = new System.Windows.Forms.Label();
             this.label62 = new System.Windows.Forms.Label();
             this.textBoxZH = new System.Windows.Forms.TextBox();
@@ -357,8 +359,6 @@
             this.label140 = new System.Windows.Forms.Label();
             this.comboBoxQLRZJZL = new System.Windows.Forms.ComboBox();
             this.buttonOK = new System.Windows.Forms.Button();
-            this.textBoxSZC = new System.Windows.Forms.TextBox();
-            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
@@ -441,6 +441,14 @@
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "宗地信息";
             this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // statusStrip1
+            // 
+            this.statusStrip1.Location = new System.Drawing.Point(3, 526);
+            this.statusStrip1.Name = "statusStrip1";
+            this.statusStrip1.Size = new System.Drawing.Size(1044, 22);
+            this.statusStrip1.TabIndex = 1;
+            this.statusStrip1.Text = "statusStrip1";
             // 
             // tableLayoutPanel1
             // 
@@ -1669,6 +1677,14 @@
             this.label64.TabIndex = 61;
             this.label64.Text = "分摊建筑面积:";
             this.label64.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // textBoxSZC
+            // 
+            this.textBoxSZC.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBoxSZC.Location = new System.Drawing.Point(918, 102);
+            this.textBoxSZC.Name = "textBoxSZC";
+            this.textBoxSZC.Size = new System.Drawing.Size(123, 21);
+            this.textBoxSZC.TabIndex = 57;
             // 
             // label63
             // 
@@ -4070,41 +4086,26 @@
             this.buttonOK.UseVisualStyleBackColor = true;
             this.buttonOK.Click += new System.EventHandler(this.buttonOK_Click);
             // 
-            // textBoxSZC
-            // 
-            this.textBoxSZC.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBoxSZC.Location = new System.Drawing.Point(918, 102);
-            this.textBoxSZC.Name = "textBoxSZC";
-            this.textBoxSZC.Size = new System.Drawing.Size(123, 21);
-            this.textBoxSZC.TabIndex = 57;
-            // 
-            // statusStrip1
-            // 
-            this.statusStrip1.Location = new System.Drawing.Point(3, 526);
-            this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(1044, 22);
-            this.statusStrip1.TabIndex = 1;
-            this.statusStrip1.Text = "statusStrip1";
-            // 
-            // Form2
+            // FormInput
             // 
             this.AcceptButton = this.buttonOK;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Control;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
             this.ClientSize = new System.Drawing.Size(1058, 602);
             this.Controls.Add(this.buttonOK);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.label19);
             this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.HelpButton = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
-            this.Name = "Form2";
+            this.Name = "FormInput";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "小心心要不要啊~是小心心耶";
+            this.Text = "录入信息";
+            this.Load += new System.EventHandler(this.FormInput_Load);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();

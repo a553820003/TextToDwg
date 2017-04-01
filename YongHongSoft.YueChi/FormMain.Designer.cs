@@ -30,9 +30,9 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripButtonInput = new System.Windows.Forms.ToolStripButton();
             this.toolStripButtonOutMap = new System.Windows.Forms.ToolStripButton();
+            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -43,17 +43,9 @@
             this.toolStripButtonOutMap});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(1005, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(1052, 25);
             this.toolStrip1.TabIndex = 1;
             this.toolStrip1.Text = "toolStrip1";
-            // 
-            // statusStrip1
-            // 
-            this.statusStrip1.Location = new System.Drawing.Point(0, 491);
-            this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(1005, 22);
-            this.statusStrip1.TabIndex = 2;
-            this.statusStrip1.Text = "statusStrip1";
             // 
             // toolStripButtonInput
             // 
@@ -75,16 +67,27 @@
             this.toolStripButtonOutMap.Text = "制图";
             this.toolStripButtonOutMap.Click += new System.EventHandler(this.toolStripButtonOutMap_Click);
             // 
+            // statusStrip1
+            // 
+            this.statusStrip1.Location = new System.Drawing.Point(0, 600);
+            this.statusStrip1.Name = "statusStrip1";
+            this.statusStrip1.Size = new System.Drawing.Size(1052, 22);
+            this.statusStrip1.TabIndex = 2;
+            this.statusStrip1.Text = "statusStrip1";
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1005, 513);
+            this.ClientSize = new System.Drawing.Size(1052, 622);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.toolStrip1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.IsMdiContainer = true;
+            this.MaximizeBox = false;
             this.Name = "FormMain";
-            this.Text = "Form1";
+            this.Text = "YueChi";
+            this.Load += new System.EventHandler(this.FormMain_Load);
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
             this.ResumeLayout(false);
