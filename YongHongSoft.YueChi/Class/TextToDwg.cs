@@ -106,7 +106,7 @@ namespace WindowsFormsApplication2
                 }
             return dbTextArray;
         }
-        //获取字体的styleID ，目前只找到这种办法，通过遍历已有dbText元素来得到，直接设置新建文字实体的styleID的方法暂未找到
+        //获取字体styleID ，目前只找到这种办法，通过遍历已有dbText元素来得到，直接设置新建文字实体的styleID的方法暂未找到
         private ObjectId getFontStyleId(BlockTableRecord acBlkTblRec, Transaction acTrans)
         {
             foreach (ObjectId objs in acBlkTblRec)//遍历图中的所有块表
@@ -126,7 +126,7 @@ namespace WindowsFormsApplication2
             return result; 
             
         }
-        //获取表格的左下角点坐标，作为基点,此方法只在直线和多段线要素中筛选得到最左下角的基点
+        //获取表格左下角点坐标，作为基点,此方法只在直线和多段线要素中筛选得到最左下角的基点
         private Point3d getBasicPoint(BlockTableRecord acBlkTblRec, Transaction acTrans)
         {
             Point3d basicPoint=new Point3d(0,0,0) ;
@@ -228,7 +228,6 @@ namespace WindowsFormsApplication2
         public static string OutputFolder;
         public static DwgType Type;
         public static string FontName;
-        public static bool IsAlign;
         public static List<Label> labelList;
         public static void HandleDwg(string fileName)
         {
